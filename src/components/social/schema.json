@@ -1,0 +1,37 @@
+{
+  "kind": "component",
+  "collectionName": "components_social_networks",
+  "info": {
+    "displayName": "Social Network",
+    "description": "Redes sociales para autores"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "LinkedIn",
+        "Twitter",
+        "GitHub",
+        "Instagram",
+        "Facebook"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "format": "uri"
+    },
+    "username": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string",
+      "regex": "^[a-zA-Z0-9-]+$",
+      "hint": "Clase de icono (ejemplo: linkedin, twitter)"
+    }
+  }
+} 
