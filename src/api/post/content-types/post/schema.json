@@ -54,6 +54,11 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::post.post"
+    },
+    "seo": {
+      "type": "component",
+      "component": "seo.seo",
+      "required": true
     }
   }
 } 
