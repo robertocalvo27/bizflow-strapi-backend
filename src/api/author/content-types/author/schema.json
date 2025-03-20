@@ -36,7 +36,7 @@
     },
     "socialNetworks": {
       "type": "component",
-      "component": "shared.social-networks",
+      "component": "shared.social-network",
       "repeatable": true,
       "max": 5
     },
