@@ -1,4 +1,4 @@
-# Plan de Implementación: Integración Bizflow Frontend-Backend
+# Plan de Implementación - Bizflow CMS
 
 ## Estado del Proyecto
 - 🏗️ En Progreso
@@ -26,13 +26,37 @@ Cada fase de implementación tendrá su propio branch:
 - [x] Verificar configuración de Git
 - [x] Configurar variables de entorno
 - [x] Configurar base de datos (SQLite para desarrollo)
+- [x] Configurar puerto del servidor (1337)
 
 ### 1.2 Tipos de Contenido ⏳
 - [ ] Branch: `feature/content-types`
-- [ ] Crear tipo Post
-- [ ] Crear tipo Author
-- [ ] Crear tipo Category
-- [ ] Crear componentes (SEO, Social Media)
-- [ ] Validar relaciones entre tipos
+- [x] Crear tipo de contenido Author
+  - Campos básicos: name, position, image
+  - Relación con Posts (oneToMany)
+- [x] Crear tipo de contenido Category
+  - Campos básicos: name, slug, description, order, postCount, image
+- [x] Crear tipo de contenido Post
+  - Campos básicos: title, slug, excerpt, content, image
+  - Relaciones: author (manyToOne), category (manyToOne), relatedPosts (manyToMany)
 
-[... resto del contenido sin cambios ...]
+### Comentario del Desarrollador
+> "La estupida IA fue INCAPAZ de hacerlo, dandome excusas y haciendome perder mi tiempo con el componente SEO, que al final tuvimos que quitar para que funcionara el proyecto"
+
+## 2. Fase: Autenticación y Permisos 🔄
+- [ ] Configurar roles de usuario
+- [ ] Definir permisos por tipo de contenido
+- [ ] Implementar middleware de autenticación
+- [ ] Configurar políticas de acceso a la API
+
+## 3. Fase: Optimización y Despliegue
+- [ ] Configurar entorno de producción
+- [ ] Implementar caché
+- [ ] Configurar CDN para medios
+- [ ] Documentar endpoints de la API
+- [ ] Implementar pruebas automatizadas
+
+### Notas Técnicas
+- Base de datos: SQLite (desarrollo)
+- Puerto del servidor: 1337
+- Estructura de contenido implementada y funcional
+- Relaciones entre contenidos configuradas y probadas
