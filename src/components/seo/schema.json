@@ -1,7 +1,8 @@
 {
-  "collectionName": "components_shared_seos",
+  "collectionName": "components_seo_seos",
   "info": {
     "displayName": "SEO",
+    "icon": "search",
     "description": "Search Engine Optimization metadata"
   },
   "options": {},
