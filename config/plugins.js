@@ -38,6 +38,26 @@ module.exports = ({ env }) => ({
           },
         },
       },
+      ratelimit: {
+        interval: 60000,
+        max: 100,
+      },
+      permissions: {
+        public: {
+          post: {
+            find: true,
+            findOne: true,
+          },
+          category: {
+            find: true,
+            findOne: true,
+          },
+          author: {
+            find: true,
+            findOne: true,
+          },
+        },
+      },
     },
   },
 }); 

@@ -2,7 +2,7 @@
 
 ## Estado del Proyecto
 - 🏗️ En Progreso
-- 📅 Última actualización: 20/03/2024
+- 📅 Última actualización: 21/03/2024
 
 ## Estructura de Directorios
 - Frontend: `/Users/robertocalvo/Desktop/Apps/bizflow-website-3`
@@ -28,8 +28,8 @@ Cada fase de implementación tendrá su propio branch:
 - [x] Configurar base de datos (SQLite para desarrollo)
 - [x] Configurar puerto del servidor (1337)
 
-### 1.2 Tipos de Contenido ⏳
-- [ ] Branch: `feature/content-types`
+### 1.2 Tipos de Contenido ✅
+- [x] Branch: `feature/content-types`
 - [x] Crear tipo de contenido Author
   - Campos básicos: name, position, image
   - Relación con Posts (oneToMany)
@@ -43,8 +43,11 @@ Cada fase de implementación tendrá su propio branch:
 > "La estupida IA fue INCAPAZ de hacerlo, dandome excusas y haciendome perder mi tiempo con el componente SEO, que al final tuvimos que quitar para que funcionara el proyecto"
 
 ## 2. Fase: Autenticación y Permisos 🔄
-- [ ] Configurar roles de usuario
-- [ ] Definir permisos por tipo de contenido
+- [x] Configurar roles de usuario (Editor y Author)
+- [x] Definir permisos por tipo de contenido
+  - Editor: Permisos completos incluyendo publicación
+  - Author: Permisos para crear y gestionar su propio contenido
+- [ ] Configurar permisos públicos de la API
 - [ ] Implementar middleware de autenticación
 - [ ] Configurar políticas de acceso a la API
 
