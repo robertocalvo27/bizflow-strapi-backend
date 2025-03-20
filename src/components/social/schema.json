@@ -1,13 +1,12 @@
 {
   "kind": "component",
-  "collectionName": "components_social_networks",
+  "collectionName": "components_social_socials",
   "info": {
-    "displayName": "Social Network",
+    "displayName": "Social",
+    "icon": "link",
     "description": "Redes sociales para autores"
   },
-  "options": {
-    "draftAndPublish": false
-  },
+  "options": {},
   "attributes": {
     "platform": {
       "type": "enumeration",
