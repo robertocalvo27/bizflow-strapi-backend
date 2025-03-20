@@ -54,11 +54,6 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::post.post"
-    },
-    "seoMetadata": {
-      "type": "component",
-      "component": "seo.metadata",
-      "required": true
     }
   }
 } 
