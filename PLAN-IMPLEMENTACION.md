@@ -13,19 +13,19 @@
 
 ## Plan de Branches
 Cada fase de implementación tendrá su propio branch:
-- `feature/content-types` - Tipos de contenido
+- `feature/content-types` - Tipos de contenido ⏳ Siguiente
 - `feature/roles-permissions` - Roles y permisos
 - `feature/api-endpoints` - Endpoints de API
 - `feature/webhooks` - Webhooks y automatizaciones
 - `feature/frontend-integration` - Integración con frontend
 - `feature/optimizations` - Optimizaciones y mejoras
 
-## 1. Fase: Configuración Inicial 🚀
+## 1. Fase: Configuración Inicial ✅
 ### 1.1 Preparación del Proyecto
 - [x] Branch: `feature/initial-setup`
 - [x] Verificar configuración de Git
 - [x] Configurar variables de entorno
-- [ ] Configurar base de datos
+- [x] Configurar base de datos (SQLite para desarrollo)
 
 ### 1.2 Tipos de Contenido ⏳
 - [ ] Branch: `feature/content-types`
