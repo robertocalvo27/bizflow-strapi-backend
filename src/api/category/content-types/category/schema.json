@@ -4,12 +4,12 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "Category",
-    "description": "Blog post categories"
+    "displayName": "Category"
   },
   "options": {
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
@@ -22,10 +22,26 @@
       "targetField": "name",
       "required": true
     },
-    "count": {
+    "description": {
+      "type": "text"
+    },
+    "order": {
       "type": "integer",
       "default": 0,
       "min": 0
+    },
+    "postCount": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 } 
